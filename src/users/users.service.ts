@@ -14,7 +14,8 @@ export class UsersService {
       data: {
         username: dto.username,
         password: hashedPassword,
-        role: dto.role
+        role: dto.role,
+        memberId: dto.memberId 
       }
     });
 
